@@ -1,0 +1,47 @@
+Preguntas de la Tarea para el hogar
+ahorcado.py
+
+
+1) Tipos de datos trabajados:
+    .constantes: para los diagramas que se muestran sobre como va el juego.
+    .diccionarios: para las palabras a adivinar. siendo las categorias las claves y las palabras dentro
+                 de las categorias el valor, representado un mismo string que separa las palabras por espacios.
+    .listas
+    .cadenas
+    .booleanos
+    .numericos
+
+
+2) Funciones definidas:
+    .getRandomWord(): devuelve la palabra seleccionada y su categoria.
+    .displayBoard(): muestra en pantalla el diagrama de la situacion actual del juego,
+                 ademas de informacion como las letras no acertadas y las acertadas.
+    .getGuess(): controla que lo que se le pide ingresar al usuario sea una letra 
+                y no un numero, un caracter especial, una letra ya ingresada o todas estas juntas en una cadena.
+    .playAgain(): ofrece al jugador la opcion de seguir el juego o terminarlo y retorna true o false dependiendo de que ingresa el jugador.
+
+
+3) Como se definen los niveles?
+    .Los niveles se definen a partir de las chances que el jugador tiene para adivinar la palabra.
+        En el nivel facil el jugador tiene intentos 9 para adivinar la palabra, en el medio tiene 7 y en el dificil tiene 5.
+
+
+4) Se respeta la PEP8?
+    .En los siguientes puntos no se respeta la PEP8:
+        .Los nombres de las variables son del tipo nombreDeVariable y no nombre_de_variable, como esta establecido.
+        .La identacion no es contante en todo el archivo, seria correcto que se idente con 4 espacios y en muchos casos no se cumple.
+        .Se utiliza la \ en lugares sin el prefijo r?
+        .No se respeta el maximo de caracteres por linea en muchas de ellas, seria correcto que no supere los 72/79 caracteres por linea.
+        .No se usa doble comilla en las triple comillas que deben usarse en la constante.
+
+
+    .En los siguientes puntos se cumple la PEP8:
+        .Se importa de manera correcta (import random).
+        .Las funciones se separan por una linea en blanco.
+        .El archivo respeta los espacios en blanco que deben dejarce entre corchetes, parentesis, llaves y operadores.
+        .Las funciones estan bien definidas.
+        .Los comentarios son correctos y cumplen con la norma.
+
+
+
+
