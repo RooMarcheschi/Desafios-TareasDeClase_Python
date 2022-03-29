@@ -30,7 +30,7 @@ ahorcado.py
     .En los siguientes puntos no se respeta la PEP8:
         .Los nombres de las variables son del tipo nombreDeVariable y no nombre_de_variable, como esta establecido.
         .La identacion no es contante en todo el archivo, seria correcto que se idente con 4 espacios y en muchos casos no se cumple.
-        .Se utiliza la \ en lugares sin el prefijo r?
+        .Se utiliza la \ en lugares sin el prefijo r? NO SE COMO RESOLVERLO!!!!
         .No se respeta el maximo de caracteres por linea en muchas de ellas, seria correcto que no supere los 72/79 caracteres por linea.
         .No se usa doble comilla en las triple comillas que deben usarse en la constante.
 
@@ -40,7 +40,8 @@ ahorcado.py
         .Las funciones se separan por una linea en blanco.
         .El archivo respeta los espacios en blanco que deben dejarce entre corchetes, parentesis, llaves y operadores.
         .Las funciones estan bien definidas.
-        .Los comentarios son correctos y cumplen con la norma.
+        .Los comentarios en general son correctos y cumplen con la norma.
+        .Las constantes etsan bien definidas.
 
 
 
